@@ -22,7 +22,7 @@ Lápiz y entrada táctil:	La entrada táctil o manuscrita no está disponible pa
 
 # Versión de Python/Anaconda y de cada uno de los módulos/paquetes y utilizados.
 
-Versión de Anaconda3: (Python
+Versión de Anaconda3: Python 3.9.12
 
 - Módulo. 
 
@@ -40,12 +40,15 @@ scipy
 
 matplotlib
 
-csv
-
 Bio
 
 - Explicación de la data utilizada 
+En la carpeta data, se encuentran archivos de la busqueda de las palabras clave, en este caso se escogio como palabras clave a: bacteria y animal. También se encuentran archivos en formato .seq, .gb, .fasta, .aln, .dnd; estos archivos corresponden al gen seleccionado que fue  L-lactate dehydrigenasa
 
-En el primer ejercicio, se utilizó un pubmed link data, en el que se realizó la búsqueda por palabras clave y con el módulo miniscience que contiene las siguientes funciones: pubmed_download y science_plots
+En el primer ejercicio, se utilizó un pubmed link data, en el que se realizó la búsqueda por palabras clave y con el módulo miniscience que contiene las siguientes funciones: pubmed_download y science_plots.
+
+Para el ejercicio 3, se utilizo la función 3 para realizar una grafica de pastel para las palabra clave "bacteria" y "animal".
+
+En el ejercicio 5 de escogio como gen de enzima a L-lactate dehydrigenasa, mediante un arbol filogenetico se observo el ancestro en comun que posían estos genes a lo largo del tiempo.
 
 
