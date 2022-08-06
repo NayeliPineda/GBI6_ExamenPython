@@ -34,15 +34,15 @@ re
 
 pandas
 
-numpy 
+os
 
-scipy
 
 matplotlib
 
-Bio
+Bio (Phylo, Entrez, DistanceCalculator, DistanceTreeConstructor, AlignIO, SeqIO)
 
 - Explicación de la data utilizada 
+
 En la carpeta data, se encuentran archivos de la busqueda de las palabras clave, en este caso se escogio como palabras clave a: bacteria y animal. También se encuentran archivos en formato .seq, .gb, .fasta, .aln, .dnd; estos archivos corresponden al gen seleccionado que fue  L-lactate dehydrigenasa
 
 En el primer ejercicio, se utilizó un pubmed link data, en el que se realizó la búsqueda por palabras clave y con el módulo miniscience que contiene las siguientes funciones: pubmed_download y science_plots.
